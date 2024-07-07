@@ -1,0 +1,8 @@
+step 1 - created a ans vector to return the ans;
+step 2 - if condition is for if the root value is already null then it will return empty vector
+step 3 - created queue and initially added root element in it
+step 4 - while loop will iterate until queue gets empty if the queue is empty it means done with the traversal
+step 5 - in while loop taking size of queue,creating vector and pop that elment and also iterating for 
+         loop and also adding left node and right node in queue repeating the whole process until we remain with empty queue
+step 6 - insert small vector and insert into ans vector 
+         
