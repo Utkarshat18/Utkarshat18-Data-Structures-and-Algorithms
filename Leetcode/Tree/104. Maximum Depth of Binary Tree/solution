@@ -1,0 +1,3 @@
+1] write a base case were root is null
+2] Call recursion for the left and right side of the tree
+3] return max of left and right side of tree with +1(because if if there is no left and right tree then there is only root whose height is one)1
