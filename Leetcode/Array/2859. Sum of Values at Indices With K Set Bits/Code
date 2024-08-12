@@ -1,0 +1,26 @@
+class Solution {
+public:
+    int sumIndicesWithKSetBits(vector<int>& nums, int k) {
+        int ans=0;
+        for(int j=0;j<nums.size();j++)
+        {
+            int i=j;
+            int sum=0;
+            if(i==0)
+            {
+                sum=0;
+            }
+            while(i>0)
+            {
+                int digit=(i&1)?1:0;
+                sum+=digit;
+                i>>=1;
+            }
+            if(sum==k)
+            {
+                ans+=nums[j];
+            }
+        }
+        return ans;
+    }
+};
