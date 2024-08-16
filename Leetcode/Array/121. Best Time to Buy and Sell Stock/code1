@@ -1,0 +1,59 @@
+class Solution {
+
+public:
+
+    int maxProfit(vector<int>& prices) {
+
+ 
+
+//203/212
+
+        // vector<int>abc;
+
+        // for(int i=0;i<prices.size()-1;i++)
+
+        // {
+
+        //     if(prices[i]<prices[i+1])
+
+        //     {
+
+        //         abc.push_back(i);
+
+        //     }
+
+        // }
+
+        // if(abc.size()==0)
+
+        // {
+
+        //     return
+
+        // }
+
+        // for(int i=0;i<abc.size();i++)
+
+        // {
+
+        //     int maxval=0;
+
+        //     for(int j=abc[i];j<prices.size();j++)
+
+        //     {
+
+        //         maxval=max(prices[j],maxval);
+
+        //     }
+
+        //     int temp=abs(maxval-prices[abc[i]]);
+
+        //     abc[i]=temp;
+
+        // }
+
+        // sort(abc.begin(),abc.end());
+
+        // return abc[abc.size()-1];
+    }
+};
