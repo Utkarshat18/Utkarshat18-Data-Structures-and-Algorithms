@@ -1,0 +1,22 @@
+class Solution {
+public:
+    void moveZeroes(vector<int>& nums) {
+        vector<int>numbers;
+        for(int i=0;i<nums.size();i++)
+        {
+            if(nums[i]!=0)
+            {
+                numbers.push_back(nums[i]);
+            }
+        }
+        vector<int>abc(nums.size(),0);
+        int j=0;
+        while(!numbers.empty())
+        {
+            abc[j]=numbers[0];
+            numbers.erase(numbers.begin());
+            j++;
+        }
+        nums=abc;
+    }
+};
